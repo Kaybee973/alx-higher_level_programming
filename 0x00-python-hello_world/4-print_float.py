@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 number = 3.14159
-string = round(number,2)
-print(string)
+two_digits = round(number,2)
+print(f"{two_digits:.2f}")
