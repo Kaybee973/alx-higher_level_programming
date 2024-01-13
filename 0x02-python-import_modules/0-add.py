@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 if __name__ == '__main__':
-    import add_0
+    from add_0 import add
 a = 1
 b = 2
-sum = add_0.add(a,b)
-print(f"{a} + {2} = {sum}")
+print(f"{a} + {2} = {add(a, b)}")
