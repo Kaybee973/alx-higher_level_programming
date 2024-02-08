@@ -9,11 +9,14 @@ if __name__ == '__main__':
     # My addition function
     print("{} + {} = {}".format(a, b, add(a, b)))
 
-    #My subtraction function
+    """My subtraction function
+    """
     print("{} - {} = {}".format(a, b, sub(a, b)))
 
-    #My multiplication function
+    """My multiplication function
+    """
     print("{} * {} = {}".format(a, b, mul(a, b)))
 
-    #My division function
+    """My division function
+    """
     print("{} / {} = {}".format(a, b, div(a, b)))
