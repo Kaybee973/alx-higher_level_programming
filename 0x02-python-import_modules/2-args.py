@@ -4,11 +4,9 @@ if __name__ == '__main__':
     num = len(sys.argv)
     if num > 1:
         if num == 2:
-            print("{:d} argument:".format(num -1))
-            # print("{:d}: {:s}".format(num -1, sys.argv))
+            print("{:d} argument:".format(num - 1))
         else:
             print("{:d} arguments:".format(num - 1))
-            # print("{:d}: {:s}".format(num - 1, sys.argv))
         for i in range(1, num):
             print("{:d}: {:s}".format(i, sys.argv[i]))
     else:
